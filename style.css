@@ -113,8 +113,18 @@ main {
 
 
 #home {
-    position:sticky;
+    position: sticky;
     height: 100vh;
+    padding-bottom: 5px; /* Adjust the bottom padding as needed */
+}
+
+#about {
+    font-size: 20px;
+    padding-top: 50px; /* Adjust the top padding as needed */
+}
+
+#p2{
+    font-size: 20px;
 }
 
 .intro {
@@ -146,7 +156,9 @@ main {
     border-radius: 50%; /* Create oval shape */
 }
 
-
+.sub-heading{
+    font-size: 20px;
+}
 
 
 
