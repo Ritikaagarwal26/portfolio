@@ -1,0 +1,154 @@
+
+
+body {
+    background-color: lavender;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    /* color: #fff; */
+    padding: 10px;
+    position: fixed; /* Stick the navigation bar */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Adjust main content to push down */
+main {
+    padding-top: 70px; /* Adjust height according to navigation bar */
+}
+
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+  }
+  #link{
+    text-decoration: none;
+    color: #d258eb;
+  }
+
+  .container{
+    text-align: left;
+  }
+
+/* Footer Styles */
+.footer { 
+    background-color: #000; 
+    color: #fff; 
+    padding: 2rem; 
+    position: relative; /* Added position relative */
+} 
+
+.footer-list-items { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 50px; 
+    width: 50px; 
+    margin: 1rem 1rem 0 1rem; 
+    border-radius: 50%; 
+    background-color: #53C8B6; 
+}
+
+.footer-links { 
+    font-size: 24px; 
+    color: #fff; 
+    text-decoration: none; 
+} 
+
+.social-links { 
+    position: absolute; /* Added position absolute */
+    bottom: 1rem; /* Adjusted bottom padding */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+} 
+
+.footer-menu { 
+    padding: 0 5rem; 
+} 
+
+.footer-menu .footer-menu-list { 
+    display: flex; 
+    list-style: none; 
+} 
+
+
+
+
+
+#home {
+    position:sticky;
+    height: 100vh;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* To space out content and image */
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    flex: 1; /* To take remaining space */
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+.headings {
+    max-width: 600px; /* Limit content width */
+}
+
+.image-wrapper {
+    width: 50%; /* Adjust width as needed */
+    height: 200%; /* Make image wrapper full height */
+}
+
+.home-image {
+    width: 80%; /* Make image fill its container */
+    height: 80%; /* Make image fill its container */
+    object-fit: cover; /* Maintain aspect ratio and cover */
+    border-radius: 50%; /* Create oval shape */
+}
+
+
+
+
+
+
+
